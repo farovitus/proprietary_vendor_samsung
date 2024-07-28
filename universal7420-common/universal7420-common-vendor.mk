@@ -41,21 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp5-dsm.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp5-dsm.wmfw \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp6-ez2-control.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp6-ez2-control.wmfw \
     vendor/samsung/universal7420-common/proprietary/etc/nfc/sec_s3fwrn5p_rfreg.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/nfc/sec_s3fwrn5p_rfreg.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_apsta.bin_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin_a1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/bcmdhd_sta.bin_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin_a1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_a1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt_b85_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_b85_a1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_a1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt_murata_b85_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_murata_b85_a1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_a1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/nvram_net.txt_wisol_b85_a1:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt_wisol_b85_a1 \
-    vendor/samsung/universal7420-common/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib/hw/consumerir.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/consumerir.exynos5.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/hw/gatekeeper.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/hw/sensorhubs.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/hw/sensors.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7420.so \
@@ -64,9 +49,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecnativefeature.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/consumerir.exynos5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/consumerir.exynos5.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/gatekeeper.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.universal7420.so \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
+    vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/gps.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/sensorhubs.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensorhubs.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/sensors.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libagc_max.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagc_max.so \
@@ -94,25 +78,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4358A3_V0083.0138_semco3rd.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138_semco3rd.hcd \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4358A3_V0083.0138.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138.hcd \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4358A3_V0083.0138_wisol.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138_wisol.hcd \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/companion_2p2_master_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_2p2_master_setfile.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/companion_2p2_mode_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_2p2_mode_setfile.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/companion_fw_2p2_evt1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_fw_2p2_evt1.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/companion_fw_imx240_evt1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_fw_imx240_evt1.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/companion_imx240_master_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_imx240_master_setfile.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/companion_imx240_mode_setfile.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/companion_imx240_mode_setfile.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/fimc_is_fw2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/fimc_is_fw2_2p2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2_2p2.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/fimc_is_fw2_imx240.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/fimc_is_fw2_imx240.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/nfc/sec_s3fwrn5p_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3fwrn5p_firmware.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/ois_fw_dom.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_dom.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/ois_fw_sec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/ois_fw_sec.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/seiren_fw_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seiren_fw_dram.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/seiren_fw_sram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seiren_fw_sram.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/setfile_2p2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_2p2.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/setfile_4e6.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_4e6.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/setfile_6b2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_6b2.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/firmware/setfile_imx240.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_imx240.bin \
+    vendor/samsung/universal7420-common/proprietary/vendor/lib/hw/nfc_nci.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/libengmode_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libengmode_client.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprotobuf-cpp-full-3.9.1.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril.so \
@@ -130,6 +100,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.1.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mdfpp.so \
+    vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/nfc_nci.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libengmode_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libengmode_client.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_helper.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libkeymaster_mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_mdfpp.so \

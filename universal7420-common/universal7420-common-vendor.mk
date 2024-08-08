@@ -41,7 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp5-dsm.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp5-dsm.wmfw \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp6-ez2-control.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp6-ez2-control.wmfw \
     vendor/samsung/universal7420-common/proprietary/etc/nfc/sec_s3fwrn5p_rfreg.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/nfc/sec_s3fwrn5p_rfreg.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib/hw/gatekeeper.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/hw/sensorhubs.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/hw/sensors.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
@@ -49,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecnativefeature.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/gatekeeper.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/gps.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/sensorhubs.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensorhubs.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/sensors.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.universal7420.so \
@@ -59,7 +57,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecnativefeature.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwrappergps.so \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib64/vendor.samsung.security.skeymaster@3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.security.skeymaster@3.0.so \
     vendor/samsung/universal7420-common/proprietary/product/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptX_encoder.so \
     vendor/samsung/universal7420-common/proprietary/vendor/bin/hw/android.hardware.drm@1.1-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.1-service.widevine \
     vendor/samsung/universal7420-common/proprietary/vendor/bin/hw/rild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild \
@@ -99,11 +96,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.channel@2.0.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.0.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@2.1.so \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/keystore.mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.mdfpp.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/nfc_nci.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/nfc_nci.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libengmode_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libengmode_client.so \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib64/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_helper.so \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib64/libkeymaster_mdfpp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_mdfpp.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libprotobuf-cpp-full-3.9.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprotobuf-cpp-full-3.9.1.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libsec-ril-dsds.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril-dsds.so \
@@ -112,7 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecnativefeature.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecril-client.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libsemnativecarrierfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsemnativecarrierfeature.so \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib64/libskeymaster.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libskeymaster.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libvkmanager_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvkmanager_vendor.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.bridge@2.0.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel@2.0.so \

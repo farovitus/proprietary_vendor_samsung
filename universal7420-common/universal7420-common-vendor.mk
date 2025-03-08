@@ -41,6 +41,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp5-dsm.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp5-dsm.wmfw \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp6-ez2-control.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp6-ez2-control.wmfw \
     vendor/samsung/universal7420-common/proprietary/etc/nfc/sec_s3fwrn5p_rfreg.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/nfc/sec_s3fwrn5p_rfreg.bin \
+    vendor/samsung/universal7420-common/proprietary/etc/nfc/sec_s3fwrn5s_rfreg.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/nfc/sec_s3fwrn5s_rfreg.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/hw/sensorhubs.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/hw/sensors.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
@@ -78,6 +79,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/bcm4358A3_V0083.0138_wisol.hcd:$(TARGET_COPY_OUT_VENDOR)/firmware/bcm4358A3_V0083.0138_wisol.hcd \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/nfc/sec_s3fwrn5p_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3fwrn5p_firmware.bin \
+    vendor/samsung/universal7420-common/proprietary/vendor/firmware/nfc/sec_s3fwrn5s_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3fwrn5s_firmware.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/seiren_fw_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seiren_fw_dram.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/firmware/seiren_fw_sram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/seiren_fw_sram.bin \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/hw/nfc_nci.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/nfc_nci.universal7420.so \

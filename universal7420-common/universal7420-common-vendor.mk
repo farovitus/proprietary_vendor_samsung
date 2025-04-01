@@ -43,8 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/etc/firmware/clearwaterc-dsp6-ez2-control.wmfw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/clearwaterc-dsp6-ez2-control.wmfw \
     vendor/samsung/universal7420-common/proprietary/etc/nfc/sec_s3fwrn5p_rfreg.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/nfc/sec_s3fwrn5p_rfreg.bin \
     vendor/samsung/universal7420-common/proprietary/etc/nfc/sec_s3fwrn5s_rfreg.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/nfc/sec_s3fwrn5s_rfreg.bin \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib/hw/sensorhubs.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensorhubs.universal7420.so \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib/hw/sensors.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecnativefeature.so \
@@ -52,8 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/universal7420-common/proprietary/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/flp.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/flp.default.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/gps.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.universal7420.so \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/sensorhubs.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensorhubs.universal7420.so \
-    vendor/samsung/universal7420-common/proprietary/vendor/lib64/hw/sensors.universal7420.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.universal7420.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libagc_max.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libagc_max.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfloatingfeature.so \
     vendor/samsung/universal7420-common/proprietary/vendor/lib64/libhr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhr.so \

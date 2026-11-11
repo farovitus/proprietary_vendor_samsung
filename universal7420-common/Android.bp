@@ -5,3 +5,22 @@
 soong_namespace {
 }
 
+
+cc_prebuilt_library_shared {
+    name: "libsecril-client",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libsecril-client.so"],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libsecril-client.so"],
+        },
+    },
+    compile_multilib: "both",
+    check_elf_files: false,
+    soc_specific: true,
+}

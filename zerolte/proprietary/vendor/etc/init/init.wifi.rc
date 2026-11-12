@@ -8,15 +8,5 @@ on post-fs-data
     mkdir /data/vendor/wifi/hostapd/ctrl 0770 wifi wifi
     mkdir /data/vendor/wifi/wpa 0770 wifi wifi
 
-    # for WIFI MAC address
-    mkdir /efs/wifi 0775 radio system
-    chown system wifi /efs/wifi/.mac.info
-    chmod 0660 /efs/wifi/.mac.info
-    start macloader
-
 on boot
     setprop wifi.interface wlan0
-
-service macloader /vendor/bin/macloader
-    class main
-    oneshot

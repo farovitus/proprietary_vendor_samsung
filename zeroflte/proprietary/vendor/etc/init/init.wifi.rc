@@ -96,11 +96,6 @@ service wifiloader /vendor/bin/wifiloader
     class main
     oneshot
 
-on property:init.svc.macloader=stopped
-    chown system root /data/misc/conn/.cid.info
-    chmod 0664 /data/misc/conn/.cid.info
-    chown system root /data/.rev
-    chmod 0664 /data/.rev
 # end of WiFi MFG (TestMode)
 
 service olsrd /system/bin/olsrd -f /etc/wifi/olsrd.conf
